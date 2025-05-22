@@ -1,13 +1,16 @@
 import React from 'react';
-import NavigationBar from './components/NavigationBar';
+import Navigationbar from './components/NavigationBar';
+import Sidebar from './components/Sidebar';
+
 
 function App() {
   return (
     <div className="min-h-screen bg-black text-white flex">
+      <Sidebar />
       <main className="flex-1">
-        <NavigationBar />
+        <Navigationbar />
 
-        
+
       </main>
     </div>
   );

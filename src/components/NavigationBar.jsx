@@ -1,7 +1,7 @@
 import React from 'react';
 import { Home, User, Briefcase, Code, Mail, FileText } from 'lucide-react';
 
-const NavigationBar = () => (
+const Navigationbar = () => (
   <nav className="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-gray-800 p-4">
     <div className="max-w-5xl mx-auto flex items-center justify-center gap-6 text-sm font-medium">
       <NavLink icon={<Home className="w-4 h-4" />} text="Home" href="#home" />
@@ -29,4 +29,4 @@ const NavLink = ({ icon, text, href }) => (
   </a>
 );
 
-export default NavigationBar;
+export default Navigationbar;
