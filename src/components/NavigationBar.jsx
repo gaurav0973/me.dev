@@ -10,7 +10,7 @@ const NavigationBar = () => (
       <NavLink icon={<Code className="w-4 h-4" />} text="Projects" href="#projects" />
       <NavLink icon={<Mail className="w-4 h-4" />} text="Contact" href="#contact" />
       <a
-        href="/resume.pdf" // Replace with actual resume path
+        href="https://docs.google.com/document/d/1PiiI_J-xkRaBM2mt1MLoDkSBgNJFEtLB2r27Y7nsfAE/edit?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-1 text-gray-300 hover:text-white transition-colors duration-150"
